@@ -1,0 +1,92 @@
+html{
+    font-family: 'Exo', sans-serif;;
+}
+:root{
+    --color-Mates: cyan;
+    --color-FísicaQuímica: lightblue;
+    --color-Valen: orange;
+    --color-Caste: red;
+    --color-Historia: green;
+    --color-Biología: lightgreen; 
+    --color-Inglés: purple;
+    --color-EducaciónFísica: brown;
+    --color-Tecnología: pink;
+    --color-Informática: yellow;
+    --color-Tutoría: grey;
+    --color-Religión: olive;
+    --color-Patio: violet;
+    --color-horas: #c1c3ef;
+    --color-días: #b9a0a0;
+}
+#título{
+    background-color: #b49840;
+}
+h1{
+    text-align: center;
+}
+#tabla1{
+    text-align: center;
+    margin: 30px auto;
+}
+#tabla2{
+    text-align: center;
+    margin: auto;
+    border-color: black;
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+#tabla2 td{
+    border: solid 2px black;
+}
+#tabla2 th{
+    border: solid 2px black
+}
+.celdacolor{
+    width: 20px;
+    height: 20px;
+}
+.mates, #mates{ 
+    background-color: var(--color-Mates);
+}
+.FQ, #FQ{
+    background-color: var(--color-FísicaQuímica);
+}
+.valen, #valen{
+    background-color: var(--color-Valen);
+}
+.caste, #caste{
+    background-color: var(--color-Caste);
+}
+.historia, #historia{
+    background-color: var(--color-Historia);
+}
+.bio, #bio{
+    background-color: var(--color-Biología);
+}
+.inglés, #inglés{
+    background-color: var(--color-Inglés);
+}
+.EF, #EF{
+    background-color: var(--color-EducaciónFísica);
+}
+.tecno, #tecno{
+    background-color: var(--color-Tecnología);
+}
+.info, #info{
+    background-color: var(--color-Informática);
+}
+.tutoría, #tutoría{
+    background-color: var(--color-Tutoría);
+}
+.reli, #reli{
+    background-color: var(--color-Religión);
+}
+.patio, #patio{
+    background-color: var(--color-Patio);
+}
+.horas{
+    background-color: var(--color-horas);
+}
+.días{
+    background-color: var(--color-días);
+}
